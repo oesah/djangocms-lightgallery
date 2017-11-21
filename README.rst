@@ -16,12 +16,12 @@ DjangoCMS Plugin for LighGallery library
 Documentation
 -------------
 
-The full documentation is at https://djangocms_lightgallery.readthedocs.io.
+The full documentation is at https://djangocms-lightgallery.readthedocs.io.
 
 Quickstart
 ----------
 
-**Requirements**
+Requirements
 
 * django-filer
 
@@ -43,7 +43,8 @@ Add it to your `INSTALLED_APPS`:
 Features
 --------
 
-* create image galleries with 
+* create image galleries with `lightGallery`
+* displays images in gallery as a thumbnail preview
 
 Running Tests
 -------------
@@ -63,6 +64,9 @@ Tools used in rendering this package:
 
 *  Cookiecutter_
 *  `cookiecutter-djangopackage`_
+*  LightGallery_
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
+.. _LightGallery: http://sachinchoolur.github.io/lightGallery/
+
