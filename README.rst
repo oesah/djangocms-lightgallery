@@ -9,9 +9,9 @@ djangocms-lightgallery
     :target: https://travis-ci.org/oesah/djangocms_lightgallery
 
 .. image:: https://codecov.io/gh/oesah/djangocms_lightgallery/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/oesah/djangocms_lightgallery
+    :target: https://codecov.io/gh/oesah/djangocms-lightgallery
 
-DjangoCMS Plugin for LighGallery library
+DjangoCMS Plugin for `LightGallery <http://sachinchoolur.github.io/lightGallery/>`_.
 
 Documentation
 -------------
