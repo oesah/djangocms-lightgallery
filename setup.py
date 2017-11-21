@@ -45,13 +45,13 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='djangocms_lightgallery',
+    name='djangocms-lightgallery',
     version=version,
     description="""DjangoCMS Plugin for LighGallery library""",
     long_description=readme + '\n\n' + history,
     author='Özer Sahin',
     author_email='o.sahin@oesah.de',
-    url='https://github.com/oesah/djangocms_lightgallery',
+    url='https://github.com/oesah/djangocms-lightgallery',
     packages=[
         'djangocms_lightgallery',
     ],
