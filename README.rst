@@ -71,3 +71,9 @@ Tools used in rendering this package:
 .. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
 .. _LightGallery: http://sachinchoolur.github.io/lightGallery/
 
+
+ToDo
+----
+
+* make the thumbnail preview customizable
+* give more styling options
