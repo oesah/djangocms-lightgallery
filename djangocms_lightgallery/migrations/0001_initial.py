@@ -39,8 +39,8 @@ class Migration(migrations.Migration):
                 ('link', models.URLField(blank=True, null=True, verbose_name='image link')),
                 ('link_target', models.BooleanField(default=True, help_text='open link in new window', verbose_name='image link target')),
                 ('caption_text', models.TextField(blank=True, null=True, verbose_name='caption text')),
-                ('image', filer.fields.image.FilerImageField(on_delete=django.db.models.deletion.CASCADE, related_name='slider_images_filer', to=settings.FILER_IMAGE_MODEL, verbose_name='light gallery image')),
-                ('slider', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='images', to='djangocms_lightgallery.LightGallery')),
+                ('image', filer.fields.image.FilerImageField(on_delete=django.db.models.deletion.CASCADE, related_name='lightgallery_images_filer', to=settings.FILER_IMAGE_MODEL, verbose_name='light gallery image')),
+                ('gallery', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='images', to='djangocms_lightgallery.LightGallery')),
             ],
             options={
                 'verbose_name': 'light gallery image',
