@@ -46,6 +46,7 @@ Features
 * create image galleries with `lightGallery`
 * displays images in gallery as a thumbnail preview
 
+
 Running Tests
 -------------
 
