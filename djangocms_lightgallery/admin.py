@@ -10,7 +10,7 @@ from .settings import get_setting
 admin.site.register(LightGalleryImage)
 
 
-class SlickerSliderAceMixin:
+class LightGalleryAceMixin:
     change_form_template = 'djangocms_lightgallery/change_form.html'
     text_area_attrs = {
         'rows': 20,

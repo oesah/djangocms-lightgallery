@@ -15,7 +15,7 @@ from .settings import get_setting
 @python_2_unicode_compatible
 class LightGallery(CMSPlugin):
     """
-    Main Plugin Model for the slider.
+    Main Plugin Model for the gallery.
     """
     class Meta:
         verbose_name = _('light gallery')
@@ -75,7 +75,7 @@ class LightGalleryImage(models.Model):
 
     image = FilerImageField(
         verbose_name=_('light gallery image'),
-        related_name='slider_images_filer')
+        related_name='gallery_images_filer')
 
     link = models.URLField(
         verbose_name=_('image link'),

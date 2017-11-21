@@ -27,7 +27,7 @@ Requirements
 
 Install djangocms-lightgallery::
 
-    pip install djangocms_lightgallery
+    pip install djangocms-lightgallery
 
 Add it to your `INSTALLED_APPS`:
 

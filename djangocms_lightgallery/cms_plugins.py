@@ -7,7 +7,7 @@ from django.utils.translation import ugettext_lazy as _
 from cms.plugin_base import CMSPluginBase
 from cms.plugin_pool import plugin_pool
 
-from .admin import SlickerSliderAceMixin
+from .admin import LightGalleryAceMixin
 from .models import LightGallery, LightGalleryImage
 
 
@@ -17,12 +17,12 @@ class LightGalleryImageInline(admin.TabularInline):
 
 
 @plugin_pool.register_plugin
-class LightGalleryPlugin(SlickerSliderAceMixin, CMSPluginBase):
+class LightGalleryPlugin(LightGalleryAceMixin, CMSPluginBase):
     """
-    The main Slick Slider Plugin. Here, we can define various settings
+    The main LightGallery Plugin. Here, we can define various settings
     and behavior of the plugin.
 
-    This Plugin adds a Slick Slider Plugin to Django CMS. You can add
+    This Plugin adds a LightGallery Plugin to Django CMS. You can add
     images as inline objects. The images will be rendered as thumbnails.
     """
     model = LightGallery

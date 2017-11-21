@@ -5,7 +5,7 @@ from __future__ import absolute_import, unicode_literals
 from .templatetags.jsonify import jsonify
 
 
-# these are the default settings for the slider
+# these are the default settings for the gallery
 # change to your needs, if you like to
 LIGHTGALLERY_DEFAULT = jsonify(
     {},
