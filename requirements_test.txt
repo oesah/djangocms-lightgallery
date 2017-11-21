@@ -31,3 +31,4 @@ djangocms_helper
 django_coverage_plugin
 
 jsonfield
+factory_boy

@@ -21,6 +21,12 @@ class LightGallery(CMSPlugin):
         verbose_name = _('light gallery')
         verbose_name_plural = _('light galleries')
 
+    def __str__(self):
+        """
+        String representation of LightGallery class.
+        """
+        return "{title}".format(title=self.title)
+
     THUMBNAIL_FORMATS = (
         ('1by1', '1:1'),
         ('4by3', '4:3'),
@@ -50,14 +56,8 @@ class LightGallery(CMSPlugin):
         """
         for image in oldinstance.images.all():
             image.pk = None
-            image.slider = self
+            image.gallery = self
             image.save()
-
-    def __str__(self):
-        """
-        String representation of LightGallery class.
-        """
-        return "{title}".format(title=self.title)
 
 
 @python_2_unicode_compatible
@@ -69,7 +69,7 @@ class LightGalleryImage(models.Model):
         verbose_name = _('light gallery image')
         verbose_name_plural = _('light gallery images')
 
-    slider = models.ForeignKey(
+    gallery = models.ForeignKey(
         LightGallery,
         related_name='images')
 

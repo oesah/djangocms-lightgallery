@@ -43,7 +43,10 @@ htmlcov
 output/*.html
 output/*/index.html
 
+db.sqlite3
+
 # Sphinx
 docs/_build
 
+media
 example/media/*
