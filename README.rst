@@ -2,13 +2,13 @@
 djangocms-lightgallery
 =============================
 
-.. image:: https://badge.fury.io/py/djangocms_lightgallery.svg
-    :target: https://badge.fury.io/py/djangocms_lightgallery
+.. image:: https://badge.fury.io/py/djangocms-lightgallery.svg
+    :target: https://badge.fury.io/py/djangocms-lightgallery
 
-.. image:: https://travis-ci.org/oesah/djangocms_lightgallery.svg?branch=master
-    :target: https://travis-ci.org/oesah/djangocms_lightgallery
+.. image:: https://travis-ci.org/oesah/djangocms-lightgallery.svg?branch=master
+    :target: https://travis-ci.org/oesah/djangocms-lightgallery
 
-.. image:: https://codecov.io/gh/oesah/djangocms_lightgallery/branch/master/graph/badge.svg
+.. image:: https://codecov.io/gh/oesah/djangocms-lightgallery/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/oesah/djangocms-lightgallery
 
 DjangoCMS Plugin for `LightGallery <http://sachinchoolur.github.io/lightGallery/>`_.
