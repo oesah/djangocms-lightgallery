@@ -62,7 +62,7 @@ setup(
     ],
     license="MIT",
     zip_safe=False,
-    keywords='djangocms_lightgallery',
+    keywords='djangocms-lightgallery',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Framework :: Django',
