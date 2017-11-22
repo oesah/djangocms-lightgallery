@@ -157,7 +157,9 @@ Example: Developer melding the 2SoD pattern to fit inside with another pattern::
     <script type="text/javascript" src="{% static 'lightGallery/js/modules/lg-share.js' %}"></script>
 
     <script type="text/javascript">
-      $("#lightgallery-{{ instance.pk }}").lightGallery({{ instance.settings|jsonify }});
+        $(window).load(function() {
+            $("#lightgallery-{{ instance.pk }}").lightGallery({{ instance.settings|jsonify }});
+        });
     </script>
 
 {% endaddtoblock %}
