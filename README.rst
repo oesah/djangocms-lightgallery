@@ -77,3 +77,8 @@ ToDo
 
 * make the thumbnail preview customizable
 * give more styling options
+
+Sponsorship
+-----------
+
+This project is maintained by `Mathison AG | Mobile & Web Development <https://mathison.ch>`_.
